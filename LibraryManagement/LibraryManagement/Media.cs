@@ -8,5 +8,11 @@ namespace LibraryManagement
 {
     class Media
     {
+        private string title;
+        private string mediaType;
+        private int serialNo;
+        private int numberOfTimesLent;
+        private Boolean borrowed;
+        private string borrowerName;
     }
 }

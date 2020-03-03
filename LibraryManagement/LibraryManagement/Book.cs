@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement
 {
-    class Book
+    class Book :Media
     {
+        private int pageCounter;
     }
 }

@@ -8,5 +8,6 @@ namespace LibraryManagement
 {
     class LibraryMember
     {
+        private string memberName;
     }
 }

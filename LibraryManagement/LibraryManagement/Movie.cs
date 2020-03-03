@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement
 {
-    class Movie
+    class Movie:Media
     {
+        private double duration;
     }
 }

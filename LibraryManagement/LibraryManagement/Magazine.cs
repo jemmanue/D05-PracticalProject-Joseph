@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement
 {
-    class Magazine
+    class Magazine:Book
     {
+        private int issueNumber;
     }
 }
